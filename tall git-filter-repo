@@ -1,0 +1,19 @@
+[33mcommit 39cfd2dd38e988ff04ce5a0df64a5c6e39fd2d67[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: briantru0ng <bqt5199@psu.edu>
+Date:   Thu May 1 17:10:55 2025 -0400
+
+    remove .pt file
+
+D	model_20250501_141924.pt
+
+[33mcommit de7ee728ea134af126a8481f7c417100ef96b96d[m
+Author: briantru0ng <bqt5199@psu.edu>
+Date:   Thu May 1 16:58:30 2025 -0400
+
+    train protbert
+
+M	.gitignore
+M	custom-proto.ipynb
+D	esm2_embeddings_with_labels.csv
+A	model_20250501_141924.pt
+D	protbert_embeddings0.csv
