@@ -101,11 +101,11 @@ def main():
                 break
 
         if not found:
-            print(f"❌ No SIFT for {gene}:{coding}")
+            print(f"no SIFT for {gene}:{coding}")
 
     out_df = pd.DataFrame(results)
     out_df.to_csv("genedataset_vep.csv", index=False)
-    print("✅ Done. Results saved to genedataset_vep.csv")
+    print("done")
 
 
 if __name__ == "__main__":

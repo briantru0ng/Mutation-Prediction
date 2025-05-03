@@ -120,7 +120,7 @@ def main():
 
     out_df = pd.DataFrame(results)
     out_df.to_csv("sift_predictions_vep_batch.csv", index=False)
-    print("saved to sift_predictions_vep_batch.csv")
+    print("saved")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,5 @@
 import pandas as pd
 import requests
-import time
 
 k = 30
 INPUT_CSV = "whole_dataset.csv"
@@ -124,11 +123,11 @@ def main():
             if data:
                 results.append(data)
         except Exception as e:
-            print(f"Error on row {i}: {e}")
+            print(f"erorr row {i}: {e}")
 
         out_df = pd.DataFrame(results)
         out_df.to_csv(OUTPUT_CSV, index=False)
-    print(f"Saved to {OUTPUT_CSV}")
+    print("saved")
 
 
 if __name__ == "__main__":
